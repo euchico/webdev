@@ -4,5 +4,5 @@ Espaço destinado ao arquivos e projetos criados durante os estudos de Desenvolv
 
 ## Plano de Estudos
 
-1ª Etapa: [Desenvolvimento Web Completo 2019](https://www.udemy.com/share/1006WiBUsYcVlXRH4=/?xref=E0cTcl5VQH0DSUQvCz0GJVUWTx4dChQ%2BVFE=).
+1ª Etapa: Curso Desenvolvimento Web Completo 2019 - Jorge Sant Ana e Jamilton Damasceno ([Link](https://www.udemy.com/share/1006WiBUsYcVlXRH4=/?xref=E0cTcl5VQH0DSUQvCz0GJVUWTx4dChQ%2BVFE=)).
 
