@@ -16,5 +16,5 @@ Série de estudos em vídeo focados em conhecimentos fundamentais.
 
 Série de estudos extras para testar os estudos realizados.
 
-Vue
+**Vue**
 - Calculculadora App
