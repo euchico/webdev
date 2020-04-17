@@ -9,6 +9,7 @@ Possuo uma experiência prévia com os Fundamentos da Computação adquirido no 
 Série de estudos em vídeo focados em conhecimentos fundamentais.
 
 **1ª Etapa:** Curso Desenvolvimento Web - *Jorge Sant Ana e Jamilton Damasceno* ([Link](https://www.udemy.com/share/101WqGBUsYcVlXRH4=/)).
+
 **2ª Etapa:** Curso Vue.js - *Maximilian Schwarzmüller e Leonardo Moura Leitao* ([Link](https://www.udemy.com/share/101WwuBUsYcVlXRH4=/)).
 
 ## Desafios
