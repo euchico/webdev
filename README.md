@@ -2,8 +2,6 @@
 
 Espaço destinado aos arquivos e projetos criados durante os estudos de Desenvolvimento Web. Os focos dos estudos são baseados no [Developer Roadmaps](https://roadmap.sh/), unidos as minhas experiência e demandas.
 
-Possuo uma experiência prévia com os Fundamentos da Computação adquirido no curso de Ciencias Computação na UERJ, porém após passar um tempo afastado das linhas de códigos considero que esse ano é um recomeço desses estudos. Preciso relembrar muitas coisas e, principalmente, me atualizar.
-
 ## Plano de Estudos
 
 Série de estudos em vídeo focados em conhecimentos fundamentais.
