@@ -1,4 +1,4 @@
-if (document.getElementById("project")){
+if (document.getElementById("course")){
   document.getElementById("menu-toggle").addEventListener("click", openMenu);
 
   function openMenu() {
