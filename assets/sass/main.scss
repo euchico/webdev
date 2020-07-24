@@ -2,9 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Code+Pro&display=swap');
 
 
-// VARIÁVEIS ==============================
-
-
 // GERAL ==============================
 html{
   scroll-behavior: smooth;
@@ -23,9 +20,17 @@ a{
   }
 }
 
+#course-itens{
+  .cover{
+    width:140px; 
+    height:140px; 
+    filter: grayscale(1);
+  }
+}
 
-// PÁGINA:NOTE ==============================
-#note{
+
+// PÁGINA:CURSO ==============================
+#course{
   h1,h2,h3{
     font-weight: bold;
   }
@@ -54,6 +59,13 @@ a{
     }
   }
 
+}
+
+#course-description{
+  a{
+    font-weight: bold;
+    font-style: italic;
+  }
 }
 
 #content.show{

@@ -1,4 +1,4 @@
-if (document.getElementById("note")){
+if (document.getElementById("project")){
   document.getElementById("menu-toggle").addEventListener("click", openMenu);
 
   function openMenu() {

@@ -9,21 +9,30 @@ a {
 #home .logo {
   height: 140px; }
 
-#note h1, #note h2, #note h3 {
+#course-itens .cover {
+  width: 140px;
+  height: 140px;
+  filter: grayscale(1); }
+
+#course h1, #course h2, #course h3 {
   font-weight: bold; }
-#note h1 {
+#course h1 {
   font-size: 2em;
   text-transform: uppercase; }
-#note h2 {
+#course h2 {
   font-size: 2.5em; }
-#note h3 {
+#course h3 {
   font-size: 2em; }
-#note h4 {
+#course h4 {
   font-size: 1.5em; }
-#note a {
+#course a {
   color: #343A40; }
-  #note a.disabled {
+  #course a.disabled {
     background-color: #FFFFFF !important; }
+
+#course-description a {
+  font-weight: bold;
+  font-style: italic; }
 
 #content.show #sidebar {
   margin-left: -15rem; }
