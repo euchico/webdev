@@ -4,15 +4,22 @@ Espaço destinado aos arquivos e projetos criados durante os estudos de Desenvol
 
 ## Plano de Estudos
 
-Série de estudos em vídeo focados em conhecimentos fundamentais.
+Série de estudos em várias mídias focados em conhecimentos fundamentais.
 
-**1ª Etapa:** Curso Desenvolvimento Web - *Jorge Sant Ana e Jamilton Damasceno* ([Link](https://www.udemy.com/share/101WqGBUsYcVlXRH4=/)).
+### Cursos
 
-**2ª Etapa:** Curso Vue.js - *Maximilian Schwarzmüller e Leonardo Moura Leitao* ([Link](https://www.udemy.com/share/101WwuBUsYcVlXRH4=/)).
+**Curso 1:** Curso Desenvolvimento Web - *Jorge Sant Ana e Jamilton Damasceno* ([Link](https://www.udemy.com/share/101WqGBUsYcVlXRH4=/)).
+**Curso 2:** PHP 7 Completo - *Leonardo Moura Leitao e Francisco Wagner Costa Aquino* ([Link](https://www.udemy.com/share/101qH0BUsYcVlXRH4=/)).
 
-## Desafios
+## Template
 
-Série de estudos extras para testar os estudos realizados.
+* [Album - Get Bootstrap](https://v5.getbootstrap.com/)
+* [Simple Sidebar - Start Bootstrap](https://startbootstrap.com/)
 
-### Vue
-- Calculculadora App
+## Contato
+
+Francisco de Paula (euchico) - <eu.francisco@outlook.com>
+
+## Licença
+
+[MIT License](https://github.com/euchico/euchico.github.io/blob/master/LICENSE.md)
