@@ -45,14 +45,14 @@
   <!-- MENU -->
   <nav>
     <!-- MENU ESCONDIDO -->
-    <div class="collapse bg-dark" id="navbar-header">
+    <div id="navbar-header" class="collapse ">
       <div class="container">
         <div class="row">
           <div class="col-sm-8 col-md-7 py-4">
             <h3>
               <a class="text-white"href="https://euchico.github.io/">WebDev</a>
             </h3>
-            <p class="text-muted">
+            <p class="text-white">
               Esse site é um espaço para compartilhar minha trajetória de estudos e apresentar projetos, pessoais e profissionais. Todos os detalhes e informações estarão descritos no <a class="text-white font-weight-bold" href="https://euchico.github.io/curriculo" target="_blank">Currículo</a>.
             </p>
           </div>
@@ -83,72 +83,37 @@
   <!-- / MENU -->
   
   <!-- CABEÇALHO -->
-  <section class="py-5 text-center container">
-    <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
+  <main class="container text-center d-flex align-items-center py-5">
+    <div class="row">
+      <div class="col-10 col-sm-5 p-0 mx-auto"> 
         <h1 class="font-weight-bold">WebDev Study</h1>
         <p class="lead text-muted">Espaço destinado aos arquivos e projetos criados durante os estudos, guiados pelo Developer Roadmaps, de Desenvolvimento Web.</p>
         <p class="mb-0">
-          <a href="course/desenvolvimento-web" class="btn btn-secondary my-2">Cursos</a>
+          <a href="course/desenvolvimento-web" class="btn my-2 text-white">Cursos</a>
         </p>
       </div>
     </div>
-  </section>
+  </main>
   <!-- / CABEÇALHO -->
 
-  <!-- CURSOS -->
-  <section id="course-itens" class="py-5 bg-light">
-    <div class="container">
-      <div class="row justify-content-md-center text-center">
-        
-        <!-- CURSO 1 -->
-        <div class="col-lg-4 mt-3">
-          <img class="img-fluid rounded-circle cover" src="assets/img/cover-desenvolvimento-web.jpg" alt="Desenvolvimento Web">
-  
-          <h2 class="mt-2">Desenvolvimento Web</h2>
-          <p>Curso Desenvolvimento Web Completo, o curso mais completo e bem avaliado da categoria na Udemy. O curso conta com mais de 530 aulas, ao todo são mais de 100 horas de videoaulas em que são abordadas as principais tecnologias web do momento.</p>
-          <p><a class="btn btn-secondary" href="course/desenvolvimento-web" role="button">Mais »</a></p>
-        </div>
-        <!-- / CURSO 1 -->
-
-        <!-- CURSO 2 -->
-        <div class="col-lg-4 mt-3">
-          <img class="img-fluid rounded-circle cover" src="assets/img/cover-php-7.jpg" alt="PHP 7">
-  
-          <h2 class="mt-2">PHP 7</h2>
-          <p>Curso PHP 7 Completo - Curso do Desenvolvedor Web 2020! Esse curso vai te ensinar a ser um desenvolvedor Web desde o básico até o nível profissional avançado. Se o desejo é ser um profissional preparado para o mercado esse curso de PHP é a escolha certa.</p>
-          <p><a class="btn btn-secondary" href="course/php-7" role="button">Mais »</a></p>
-        </div>
-        <!-- / CURSO 2 -->
-
-        <!-- CURSO 3 -->
-        <div class="col-lg-4 mt-3">
-          <img class="img-fluid rounded-circle cover"  src="assets/img/cover-vue-js.jpg" alt="Vue.js">
-  
-          <h2 class="mt-2">Vue.js</h2>
-          <p>Não importa em que métrica você olhe (Google Trends, Github Stars, Tweets ...) O Vue JS é a estrela no mundo dos frameworks JavaScript. Começaremos no básico, o que é o Vue.js e como ele funciona, pra só então passar para tópicos mais complexos e avançados.</p>
-          <p><a class="btn btn-secondary" href="course/vue" role="button">Mais »</a></p>
-        </div>
-        <!-- / CURSO 3 -->
-
-      </div>
-    </div>
-  </section>
-  <!-- / CURSOS -->
   
   <!-- RODAPÉ -->
-  <footer class="container text-muted py-5">
+  <footer class="container text-muted py-5 mt-auto">
     <div class="row text-center text-sm-left">
-      <div class="col-sm-10">
-        <p class="mb-1">euCHICO - <a href="mailto:eu.francisco@outlook.com" class="font-weight-bold text-muted">eu.francisco@outlook.com</a></p>
+      <!-- CONTATO -->
+      <div class="col-12 col-md-10">
+        <p class="mb-1">euCHICO - <a href="mailto:eu.francisco@outlook.com" class="font-weight-bold">eu.francisco@outlook.com</a></p>
       </div>
+      <!-- / CONTATO -->
 
-      <div class="col-sm-2">
-        <a class="text-dark font-weight-bold" href="#">
-          topo
-          <svg width="1.2em" height="1.2em" viewBox="0 0 16 16" class="bi bi-caret-up-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.247 4.86l-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/></svg>
-        </a>
-      </div>
+      <!-- CURSOS -->
+      <!-- <div class="col-12 col-md-2">
+        <h5>Cursos</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Cool stuff</a></li>
+        </ul>
+      </div> -->
+      <!-- / CURSOS -->
     </div> 
   </footer>
   <!-- / RODAPÉ -->

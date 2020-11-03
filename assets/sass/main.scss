@@ -15,16 +15,31 @@ a{
 
 // PÁGINA:HOME ==============================
 #home{
-  .logo{
-    height: 140px;
+  overflow: hidden;
+
+  nav #navbar-header,
+  nav .navbar{
+    background-color: #431517 !important;
+  }
+
+  main{
+    height: calc(100vh - (56px + 124px)); //124px Altura do Rodapé.
+    
+    h1{ color: #431517; }
+    a{ background-color: #6b2225; }
+    a:hover{ background-color: #431517; }
+  }
+  
+  footer{
+    a{ color: #431517; }
   }
 }
 
-#course-itens{
-  .cover{
-    width:140px; 
-    height:140px; 
-    filter: grayscale(1);
+@media only screen and (max-width: 1365px) {
+  #home{
+    main{
+      height: 100vh;
+    }
   }
 }
 
