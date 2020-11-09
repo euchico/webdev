@@ -14,26 +14,27 @@ a {
   #home main {
     height: calc(100vh - (56px + 124px)); }
     #home main h1 {
-      color: #431517; }
+      color: #343A40; }
     #home main a {
       background-color: #6b2225; }
     #home main a:hover {
       background-color: #431517; }
   #home footer a {
-    color: #431517; }
+    color: #343A40; }
 
 @media only screen and (max-width: 1365px) {
   #home main {
     height: 100vh; } }
-#course h1, #course h2, #course h3 {
-  font-weight: bold; }
 #course h1 {
   font-size: 2em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-weight: bold; }
 #course h2 {
-  font-size: 2.5em; }
+  font-size: 2.5em;
+  font-weight: bold; }
 #course h3 {
-  font-size: 2em; }
+  font-size: 2em;
+  font-weight: bold; }
 #course h4 {
   font-size: 1.5em; }
 #course a {
@@ -51,6 +52,7 @@ a {
 #sidebar {
   min-height: 100vh;
   margin-left: 0;
+  background-color: #431517;
   -webkit-transition: margin .25s ease-out;
   -moz-transition: margin .25s ease-out;
   -o-transition: margin .25s ease-out;
@@ -61,9 +63,15 @@ a {
     text-align: center; }
   #sidebar .list-group {
     width: 15rem; }
+    #sidebar .list-group a {
+      color: #FFFFFF;
+      background-color: #431517; }
+    #sidebar .list-group a.disabled {
+      color: #343A40; }
     #sidebar .list-group .list-group-item:hover {
-      background-color: #495056 !important; }
-  #sidebar a:hover, #sidebar a:focus {
+      background-color: #6b2225 !important; }
+  #sidebar a:hover,
+  #sidebar a:focus {
     background-color: inherit; }
 
 @media screen and (max-width: 768px) {

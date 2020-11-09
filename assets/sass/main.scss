@@ -7,10 +7,7 @@ html{
   scroll-behavior: smooth;
   color: #333333;
 }
-
-a{
-  text-decoration: none;
-}
+a{ text-decoration: none; }
 
 
 // PÁGINA:HOME ==============================
@@ -25,13 +22,14 @@ a{
   main{
     height: calc(100vh - (56px + 124px)); //124px Altura do Rodapé.
     
-    h1{ color: #431517; }
+    h1{ color: #343A40; }
+    
     a{ background-color: #6b2225; }
     a:hover{ background-color: #431517; }
   }
   
   footer{
-    a{ color: #431517; }
+    a{ color: #343A40; }
   }
 }
 
@@ -46,29 +44,26 @@ a{
 
 // PÁGINA:CURSO ==============================
 #course{
-  h1,h2,h3{
-    font-weight: bold;
-  }
-
   h1{
     font-size: 2em;
     text-transform: uppercase;
+    font-weight: bold;
   }
-   
   h2{
     font-size: 2.5em;
+    font-weight: bold;
   }
-    
   h3{
     font-size: 2em;
+    font-weight: bold;
   }
-
   h4{
     font-size: 1.5em;
   }
 
   a{
     color: #343A40;
+    
     &.disabled{
       background-color: #FFFFFF !important;
     }
@@ -84,14 +79,13 @@ a{
 }
 
 #content.show{
-  #sidebar{
-    margin-left: -15rem;
-  }
+  #sidebar{ margin-left: -15rem; }
  }
 
 #sidebar{
   min-height: 100vh;
   margin-left: 0;
+  background-color: #431517;
 
   -webkit-transition: margin .25s ease-out;
   -moz-transition: margin .25s ease-out;
@@ -104,29 +98,30 @@ a{
   }
   .list-group {
     width: 15rem;
+    
+    a{
+      color: #FFFFFF;
+      background-color: #431517;
+    }
+    a.disabled{ color: #343A40; }
+
     .list-group-item:hover{
-      background-color: #495056 !important;
+      background-color: #6b2225 !important;
     }
   }
-  a:hover, a:focus{
+  a:hover,
+  a:focus{
     background-color: inherit;
   }
 }
 
 @media screen and (max-width: 768px){
   #content.show{
-    #sidebar{
-      margin-left: 0;
-    }
+    #sidebar{ margin-left: 0; }
   }
 
-  #sidebar{
-    margin-left: -15rem;
-  }
-
-  #note-content{
-    overflow: hidden;
-  }
+  #sidebar{ margin-left: -15rem; }
+  #note-content{ overflow: hidden; }
 
   .show{
     .nav-top{
@@ -141,11 +136,6 @@ a{
 }
 
 .code{
-  span{
-    font-weight: 100;
-  }
-
-  button{
-    font-size: .6em;
-  }
+  span{ font-weight: 100; }
+  button{ font-size: .6em; }
 }
