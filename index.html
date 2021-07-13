@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="h-100">
 <head>
 	<!-- METAS -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- / METAS -->
 
   <!-- SEO -->
   <meta http-equiv="content-language" content="pt-br">
   <meta name="author" content="Francisco de Paula (euCHICO)">
-  <meta name="description" content="Espaço destinado aos arquivos e projetos criados durante os estudos, guiados pelo Developer Roadmaps, de Desenvolvimento Web.">
-  <meta name="creator" content="Francisco de Paula (euChico)">
+  <meta name="description" content="Espaço destinado aos arquivos e projetos criados durante os estudos de Desenvolvimento Web.">
+  <meta name="creator" content="Francisco de Paula (euCHICO)">
   <meta name="robots" content="index, follow">
 
   <meta property="og:locale" content="pt_BR">
   <meta property="og:type" content="website">
   <meta property="og:title" content="WebDev Study">
-  <meta property="og:description" content="Espaço destinado aos arquivos e projetos criados durante os estudos, guiados pelo Developer Roadmaps, de Desenvolvimento Web.">
+  <meta property="og:description" content="Espaço destinado aos arquivos e projetos criados durante os estudos de Desenvolvimento Web.">
   <meta property="og:url" content="https://euchico.github.io/webdev-study">
   <meta property="og:site_name" content="WebDev Study">
   <meta property="og:image" content="https://euchico.github.io/images/euchico-perfil-3.jpg">
@@ -24,10 +24,10 @@
   <meta property="og:image:height" content="300">
 
   <meta name="twitter:card" value="summary">
-  <meta name="twitter:site" content="@_euchico">
-  <meta name="twitter:creator" content="@_euchico">
+  <meta name="twitter:site" content="@euchicoart">
+  <meta name="twitter:creator" content="@euchicoart">
   <meta name="twitter:title" content="WebDev Study">
-  <meta name="twitter:description" content="Espaço destinado aos arquivos e projetos criados durante os estudos, guiados pelo Developer Roadmaps, de Desenvolvimento Web.">
+  <meta name="twitter:description" content="Espaço destinado aos arquivos e projetos criados durante os estudos de Desenvolvimento Web.">
   <meta name="twitter:image" content="https://euchico.github.io/images/euchico-perfil-3.jpg">
   <!-- / SEO -->
 
@@ -37,86 +37,94 @@
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <!-- / ESTILOS -->
 
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sticky-footer/">
+
   <link rel="icon" href="favicon.ico">
   <title>WebDev Study</title>
 <head>
 
-<body id="home">
-  <!-- MENU -->
-  <nav>
-    <!-- MENU ESCONDIDO -->
-    <div id="navbar-header" class="collapse ">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-md-7 py-4">
-            <h3>
-              <a class="text-white"href="https://euchico.github.io/">euChico</a>
-            </h3>
-            <p class="text-white">
-              Esse site é um espaço para compartilhar minha trajetória de estudos e apresentar projetos, pessoais e profissionais. Todos os detalhes e informações estarão descritos no <a class="text-white font-weight-bold" href="https://euchico.com/curriculo" target="_blank">Currículo</a>.
-            </p>
-          </div>
-          <div class="col-sm-4 offset-md-1 py-4">
-            <h3 class="text-white">Contato</h3>
-            <ul class="list-unstyled">
-              <li><a class="font-weight-bold text-white" href="https://github.com/euchico" target="_blank">GitHub</a></li>
-              <li><a class="font-weight-bold text-white" href="https://www.instagram.com/eu.chico" target="_blank">Instagram</a></li>       
-              <li><a class="font-weight-bold text-white" href="mailto:eu.francisco@outlook.com" >Email</a></li>
-            </ul>
+<body class="d-flex h-100">
+  <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
+    <!-- MENU -->
+    <nav class="mb-auto">
+      <!-- Menu Escondido -->
+      <div id="navbar-header" class="collapse bg-dark ">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <!-- Apresentação -->
+              <h2>
+                <a class="text-white"href="https://euchico.github.io/">euCHICO</a>
+              </h2>
+              <p class="text-white">
+                Esse site é um espaço para compartilhar minha trajetória de estudos e apresentar projetos, pessoais e profissionais. Todos os detalhes e informações estarão descritos no <a class="text-white fw-bold" href="https://euchico.com/curriculo" target="_blank">Currículo</a>.
+              </p>
+            </div>
+            <!-- / Apresentação -->
+
+            <!-- Contato -->
+            <div class="col-sm-2 offset-md-1 py-4">
+              <h3 class="fs-4 text-white">Contato</h3>
+              <ul class="list-unstyled">
+                <li><a class="fw-bold text-white" href="https://github.com/euchico" target="_blank">GitHub</a></li>
+                <li><a class="fw-bold text-white" href="https://euchico.com/" target="_blank">Site</a></li>       
+                <li><a class="fw-bold text-white" href="mailto:eu.francisco@outlook.com" >Email</a></li>
+              </ul>
+            </div>
+            <!-- / Contato -->
+
+            <!-- Curso Atual -->
+            <div class="col-sm-2 py-4">
+              <h3 class="fs-4 text-white">Curso Atual</h3>
+              <ul class="list-unstyled">
+                <li><a class="fw-bold text-white" href="course/desenvolvimento-web" target="_blank">Dev. Web</a></li>
+              </ul>
+            </div>
+            <!-- Curso Atual -->
           </div>
         </div>
       </div>
-    </div>
-    <!-- / MENU ESCONDIDO -->
+      <!-- / Menu Escondido -->
 
-    <!-- MENU VISÍVEL -->
-    <div class="navbar navbar-dark bg-dark shadow-sm">
-      <div class="container">
-        <a class="navbar-brand font-weight-bold d-flex align-items-center">WebDev Estudo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <!-- Menu Visível -->
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a class="navbar-brand fw-bold d-flex align-items-center">WebDev Estudo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
       </div>
-    </div>
-    <!-- / MENU VISÍVEL -->
-  </nav>
-  <!-- / MENU -->
-  
-  <!-- CABEÇALHO -->
-  <main class="container text-center d-flex align-items-center py-5">
-    <div class="row">
-      <div class="col-10 col-sm-5 p-0 mx-auto"> 
-        <h1 class="font-weight-bold">WebDev Study</h1>
-        <p class="lead text-muted">Espaço destinado aos arquivos e projetos criados durante os estudos, guiados pelo Developer Roadmaps, de Desenvolvimento Web.</p>
-        <p class="mb-0">
-          <a class="btn my-2 text-white" href="course/desenvolvimento-web">Cursos</a>
+      <!-- / Menu Visível -->
+    </nav>
+    <!-- / MENU -->
+
+    <!-- DESTAQUE -->
+    <main class="container text-center py-3">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6 p-0 mx-auto"> 
+          <h1 class="fw-bold">WebDev Study</h1>
+          <p class="lead text-muted">Espaço destinado aos arquivos e projetos criados durante a trajetória de atualização e estudos de Desenvolvimento Web.</p>
+          <p class="mb-0">
+            <a class="btn my-2 text-white" href="course/desenvolvimento-web">Cursos</a>
+          </p>
+        </div>
+      </div>
+    </main>
+    <!-- / DESTAQUE -->
+
+    <!-- RODAPÉ -->
+    <footer class="mt-auto mb-2">
+      <div class="container">
+        <p class="mb-1 text-center">
+          <a class="fw-bold" href="https://euchico.com/" target="_blank">euCHICO</a>
+          <br>
+          <a class="fw-bold" href="mailto:eu.francisco@outlook.com">eu.francisco@outlook.com</a>
         </p>
       </div>
-    </div>
-  </main>
-  <!-- / CABEÇALHO -->
-
-  
-  <!-- RODAPÉ -->
-  <footer class="container text-muted py-5 mt-auto">
-    <div class="row text-center text-sm-left">
-      <!-- CONTATO -->
-      <div class="col-12 col-md-10">
-        <p class="mb-1">euCHICO - <a class="font-weight-bold" href="mailto:eu.francisco@outlook.com">eu.francisco@outlook.com</a></p>
-      </div>
-      <!-- / CONTATO -->
-
-      <!-- CURSOS -->
-      <!-- <div class="col-12 col-md-2">
-        <h5>Cursos</h5>
-        <ul class="list-unstyled text-small">
-          <li><a class="link-secondary" href="#">Cool stuff</a></li>
-        </ul>
-      </div> -->
-      <!-- / CURSOS -->
-    </div> 
-  </footer>
-  <!-- / RODAPÉ -->
+    </footer>
+    <!-- / RODAPÉ -->
+  </div>
 
   <!-- SCRIPTS -->
   <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>

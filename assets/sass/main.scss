@@ -14,60 +14,42 @@ html{
   scroll-behavior: smooth;
   color: $c-text;
 }
+
 a{ text-decoration: none; }
 
 
 // PÁGINA:HOME ==============================
-#home{
-  overflow: hidden;
-
-  nav #navbar-header,
-  nav .navbar{
-    background-color: $c-primary !important;
-  }
-
-  main{
-    height: calc(100vh - (56px + 124px)); //124px Altura do Rodapé.
-    
-    h1{ color: $c-text; }
-    
-    a{ background-color: $c-primary-shade; }
-    a:hover{ background-color: $c-primary; }
-  }
-  
-  footer{
-    a{ color: $c-text; }
-  }
+nav #navbar-header,
+nav .navbar{
+  background-color: $c-primary !important;
 }
 
-@media only screen and (max-width: 1365px) {
-  #home{
-    main{
-      height: 100vh;
-    }
-  }
+main{
+  // height: calc(100vh - (56px + 124px)); 124px Altura do Rodapé.
+  
+  h1{ color: $c-text; }
+  
+  a{ background-color: $c-primary-shade !important; }
+  a:hover{ background-color: $c-primary; }
+}
+
+footer{
+  a{ color: $c-text !important; }
 }
 
 
 // PÁGINA:CURSO ==============================
 #course{
   h1{
-    font-size: 2em;
     text-transform: uppercase;
     font-weight: bold;
   }
   h2{
-    font-size: 2.5em;
     font-weight: bold;
   }
   h3{
-    font-size: 2em;
     font-weight: bold;
   }
-  h4{
-    font-size: 1.5em;
-  }
-
   a{
     color: $c-text;
     
@@ -75,7 +57,6 @@ a{ text-decoration: none; }
       background-color: $c-white !important;
     }
   }
-
 }
 
 #course-description{
@@ -98,11 +79,13 @@ a{ text-decoration: none; }
   -moz-transition: margin .25s ease-out;
   -o-transition: margin .25s ease-out;
   transition: margin .25s ease-out;
+
   .sidebar-footer{
     padding: 0.875rem 1.25rem;
     font-weight: bold;
     text-align: center;
   }
+  
   .list-group {
     width: 15rem;
     
