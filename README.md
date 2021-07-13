@@ -4,11 +4,11 @@ Espaço destinado aos arquivos e projetos criados durante os estudos de Desenvol
 
 ## Plano de Estudos
 
-Série de estudos em várias mídias focados em conhecimentos fundamentais.
+Série de estudos de base centrado nos conhecimentos fundamentais do Desenvolvimento Web (Full Stack).
 
 ### Cursos
 
-* **[Curso 1:](https://euchico.github.io/webdev-study/course/desenvolvimento-web)** Curso Desenvolvimento Web - *Jorge Sant Ana e Jamilton Damasceno* ([Link](https://www.udemy.com/share/101WqGBUsYcVlXRH4=/)).
+* **[Curso 1](https://euchico.github.io/webdev-study/course/desenvolvimento-web)**: Curso Desenvolvimento Web - *Jorge Sant Ana e Jamilton Damasceno* ([Link](https://www.udemy.com/share/101WqGBUsYcVlXRH4=/)).
 
 ## Template
 
